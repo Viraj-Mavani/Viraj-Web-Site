@@ -5,8 +5,13 @@
     <meta charset="utf-8">
     <title>Viraj Mavani</title>
 
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
     <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- Favicon -->
     <link rel="icon" href="favicon/V_favicon.ico">
 
     <!-- Google fonts -->
@@ -20,179 +25,212 @@
 
     <!-- <link rel="stylesheet" href="https://image.flaticon.com/icons/svg/893/893268.svg"> -->
 
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
-    <div class="top-container" style="background-image: url(Img/background6_2.jpg);">
-      <!-- <img class="imgc1" src="Img\cloud.png" alt="cloud"> -->
-      <h1 class="main-h1">I'm Viraj.</h1>
-      <h4 class="sub-h2">A Programmer.</h4>
-      <!-- <img class="imgc2" src="Img\cloud.png" alt="cloud">
-      <img class="imgm1" src="Img\mountain.png" alt="mountain"> -->
-    </div>
 
-    <div class="middle-container">
-      <div class="profile">
+
+    <!-- top-container -->
+
+    <section id="top-section" class="top-section" style="background-image: url(Img/background6_2.jpg);">
+      <div class="container-fluid top-container">
+        <h1 class="main-h1">I'm Viraj.</h1>
+        <h4 class="sub-h2">A Programmer.</h4>
+      </div>
+    </section>
+
+
+
+
+    <!-- profile -->
+
+    <section id="profile" class="profile">
+      <div class="container-fluid profile-container">
         <img src="Img/Circle_Viraj.png" alt="Viraj Proflie Picture" height="180px" widht="180px">
         <h4 class="h3-hello">Hello</h4></td>
         <p class="intro">I am a Student of B.tech Computer Engineering At <a href="https://atmiyauni.ac.in/">Atmiya University</a>.</p>
       </div>
-      <div class="abilities">
+    </section>
+
+
+
+
+    <!-- abilities -->
+
+    <section id="abilities" class="abilities">
+      <div class="container-fluid abilities-container">
         <h2 class="abiliti-h2">Abilities</h2>
         <hr class="abiliti-hr">
-          <div class="abilitis-div">
-            <!-- <div class="gif-1">
-              <img class="gif1" src="https://media.giphy.com/media/lOgu1OnjYF2GHBfRU4/giphy.gif" alt="Coding Gif">
-            </div> -->
-            <div class="table">
+          <div class="row abilitis-div">
+            <div class="col-lg-12 table">
               <h3 class="abiliti-h3">Skills</h3>
                 <table class="abiliti-table" cellspacing="10">
-                            <tr>
-                              <td class="th-align01">HTML(5)</td>
-                              <td class="th-align02">★★★★★</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">CSS(3)</td>
-                              <td class="th-align02">★★★★★</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">Python</td>
-                              <td class="th-align02">★★★★☆</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">C</td>
-                              <td class="th-align02">★★★★☆</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">Java</td>
-                              <td class="th-align02">★★★☆☆</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">C++</td>
-                              <td class="th-align02">★★★☆☆</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">Javascript</td>
-                              <td class="th-align02">★★★☆☆</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">Bootstrap Framework</td>
-                              <td class="th-align02">★★☆☆☆</td>
-                            </tr>
-                            <tr>
-                              <td class="th-align01">Ruby</td>
-                              <td class="th-align02">★☆☆☆☆</td>
-                            </tr>
-                          </table>
+                  <tr class="tr-hover">
+                    <td class="th-align01">HTML(5)</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">CSS(3)</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Python</td>
+                    <td class="th-align02">★★★★☆</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">C</td>
+                    <td class="th-align02">★★★★☆</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Java</td>
+                    <td class="th-align02">★★★☆☆</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">C++</td>
+                    <td class="th-align02">★★★☆☆</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Javascript</td>
+                    <td class="th-align02">★★★☆☆</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Bootstrap Framework</td>
+                    <td class="th-align02">★★☆☆☆</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Ruby</td>
+                    <td class="th-align02">★☆☆☆☆</td>
+                  </tr>
+                </table>
             </div>
+            <!-- <div class="col-lg-6 gif-col">
+              <img class="gif1" src="https://media.giphy.com/media/lOgu1OnjYF2GHBfRU4/giphy.gif" alt="Coding Gif">
+            </div> -->
           </div>
         <hr>
-          <div class="abilitis-div">
-            <!-- <div class="gif-2">
+          <div class="row abilitis-div">
+            <!-- <div class="col-lg-6 gif-col">
               <img class="gif2" src="https://media.giphy.com/media/gjxYwnMG7Mocmc75DM/giphy.gif" alt="Coding Gif">
             </div> -->
-            <div class="table">
+            <div class="col-lg-12 table">
               <h3 class="abiliti-h3">Languages</h3>
                 <table class="abiliti-table" cellspacing="10">
-                      <tr>
-                        <td class="th-align01">English Language</td>
-                        <td class="th-align02">★★★★★</td>
-                      </tr>
-                      <tr>
-                        <td class="th-align01">Hindi Language</td>
-                        <td class="th-align02">★★★★★</td>
-                      </tr>
-                      <tr>
-                        <td class="th-align01">Gujarati Language</td>
-                        <td class="th-align02">★★★★★</td>
-                      </tr>
-                      <tr>
-                        <td class="th-align01">Franch Language</td>
-                        <td class="th-align02">★☆☆☆☆</td>
-                      </tr>
-                    </table>
+                  <tr class="tr-hover">
+                    <td class="th-align01">English Language</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Hindi Language</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Gujarati Language</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Franch Language</td>
+                    <td class="th-align02">★☆☆☆☆</td>
+                  </tr>
+                </table>
             </div>
           </div>
         <hr>
-          <div class="abilitis-div">
-            <div class="table">
+          <div class="row abilitis-div">
+            <div class="col-lg-12 table">
             <h3 class="abiliti-h3">Tools</h3>
                 <table class="abiliti-table" cellspacing="10">
-                  <tr>
+                  <tr class="tr-hover">
                     <td class="th-align01">Microsoft Office</td>
                     <td class="th-align02">★★★★★</td>
                   </tr>
-                  <tr>
+                  <tr class="tr-hover">
                     <td class="th-align01">Adobe Lightroom</td>
                     <td class="th-align02">★★★★★</td>
                   </tr>
-                  <tr>
+                  <tr class="tr-hover">
                     <td class="th-align01">Adobe Photoshop</td>
                     <td class="th-align02">★★★☆☆</td>
                   </tr>
                 </table>
             </div>
+            <!-- <div class="col-lg-6 gif-col">
+              <img class="gif3" src="https://media.giphy.com/media/ZZljmGVPla9TvPUry4/giphy.gif" alt="Coding Gif">
+            </div> -->
           </div>
         <hr>
           <div class="abilitis-div">
             <div class="table">
             <h3 class="abiliti-h3">Others</h3>
                 <table class="abiliti-table" cellspacing="10">
-                    <tr>
-                      <td class="th-align01">Photography</td>
-                      <td class="th-align02">★★★★★</td>
-                    </tr>
-                    <tr>
-                      <td class="th-align01">Photo Editing</td>
-                      <td class="th-align02">★★★★★</td>
-                    </tr>
-                    <tr>
-                      <td class="th-align01">Video Editing</td>
-                      <td class="th-align02">★★★★★</td>
-                    </tr>
-                    <tr>
-                      <td class="th-align01">Communications</td>
-                      <td class="th-align02">★★★★☆</td>
-                    </tr>
-                    <tr>
-                      <td class="th-align01">Marketing</td>
-                      <td class="th-align02">★★★☆☆</td>
-                    </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Photography</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Photo Editing</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Video Editing</td>
+                    <td class="th-align02">★★★★★</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Communications</td>
+                    <td class="th-align02">★★★★☆</td>
+                  </tr>
+                  <tr class="tr-hover">
+                    <td class="th-align01">Marketing</td>
+                    <td class="th-align02">★★★☆☆</td>
+                  </tr>
                 </table>
             </div>
           </div>
       </div>
-      <div class="contact">
-        <div class="contact-div">
-                <div class="contact-div">
-                  <h3 class="contact-h3">How can I help?</h3>
-                  <div class="contact-intro">
-                    <p class="contact-p">Need any help or need to get in with me?</p>
-                    <p class="contact-p">Mail me and I'll be touch as soon as possible.</p>
-                  </div>
-                </div>
-                <div class="mailto">
-                  <a href="mailto:viraj.mavani3201@gmail.com" class="button_contact">
-                    <i class="fas fa-paper-plane"></i>
-                    MESSAGE ME
-                  </a>
-                </div>
+    </section>
+
+
+
+
+    <!-- contact -->
+
+    <section id="contact" class="contact">
+        <div class="container-fluid contact-container">
+          <h3 class="contact-h3">How can I help?</h3>
+          <div class="contact-intro">
+            <p class="contact-p">Need any help or need to get in with me?</p>
+            <p class="contact-p">Mail me and I'll be touch as soon as possible</p>
+          </div>
+          <a href="mailto:viraj.mavani3201@gmail.com" class="btn btn-lg active button_contact" role="button" aria-pressed="true">
+            <i class="fas fa-paper-plane i-mail"></i>
+            MESSAGE US
+          </a>
         </div>
-      </div>
-    </div>
+    </section>
 
-    <div class="bottom-container">
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/viraj-mavani/" class="fa fa-linkedin"></a>
-        <a href="https://twitter.com/Viraj00655637" class="fa fa-twitter"></a>
-        <a href="https://www.instagram.com/v_raj__mavani/" class="fa fa-instagram"></a>
-        <a href="https://www.facebook.com/viraj.mavani.1/" class="fa fa-facebook"></a>
-      </div>
-      <div class="cr">
-        <p>© 2020 Viraj Mavani. All rights reserved.</p>
-      </div>
-    </div>
 
+
+
+    <!-- Footer -->
+
+    <footer id="footer" class="footer">
+      <div class="container-fluid footer-container">
+       <div class="social-links">
+         <a href="https://www.linkedin.com/in/viraj-mavani/" class="icon-footer"><i class="fab fa-linkedin i-footer"></i></a>
+         <a href="https://twitter.com/Viraj00655637" class="icon-footer"><i class="fab fa-twitter i-footer"></i></a>
+         <a href="https://www.facebook.com/viraj.mavani.1/" class="icon-footer"><i class="fab fa-facebook-f i-footer"></i></a>
+         <a href="https://www.instagram.com/v_raj__mavani/" class="icon-footer"><i class="fab fa-instagram i-footer"></i></a>
+       </div>
+       <div class="cp">
+         <p>© 2020 Viraj Mavani. All rights reserved.</p>
+       </div>
+     </div>
+
+    </footer>
   </body>
 
 </html>
